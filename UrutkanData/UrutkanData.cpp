@@ -59,6 +59,17 @@ void display() {
 	cout << "=================" << endl;
 	cout << "Jumlah Pass " << n - 1 << endl;
 	cout << endl;
+	for (int j = 0; j < n; j++) {
+		cout << arr[j]; 
+		if (j < n - 1) {
+			cout << " --> ";
+		}
+	}
+	cout << endl;
+	cout << endl;
+	cout << "Jumlah Pass = " << n - 1 << endl;
+	cout << endl; 
+
 }
 
 
