@@ -54,6 +54,12 @@ void bubbleSortArray() {
 
 
 
+void display() {
+	cout << endl;
+	cout << "=================" << endl;
+	cout << "Jumlah Pass " << n - 1 << endl;
+	cout << endl;
+}
 
 
 int main()
